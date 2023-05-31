@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_toolbar_alter().
+ */
+function contextual_highlight_toolbar_alter(&$items) {
+  $items['contextual']['#attached']['library'][] = 'contextual_highlight/highlight';
+}

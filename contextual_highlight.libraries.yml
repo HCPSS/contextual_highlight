@@ -1,0 +1,14 @@
+highlight:
+  version: 0.1
+  js:
+    js/highlight.js: {}
+    js/models/StateModel.js: {}
+  css:
+    state:
+      css/highlight.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    # @todo Remove this in https://www.drupal.org/project/drupal/issues/3203920
+    - core/internal.backbone
+    - core/once
